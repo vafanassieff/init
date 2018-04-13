@@ -1,0 +1,2 @@
+# From the traceroute output we see that the after nat-1 the ip switch from private (aka 10.x.x.x) to public
+# So nat-1 is our link with the outside world :)

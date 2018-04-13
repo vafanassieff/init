@@ -1,0 +1,4 @@
+# the full path is in /etc/resolv.conf 
+# However this is a symbolic link to /var/run/resolv.conf
+# So the  file where i can find the dns which i use is
+# /var/run/resolv.conf
