@@ -1,0 +1,7 @@
+#/bin/bash
+
+# Crontab entry for the scrip below
+# 0 4 * * 0  cd /root && ./02
+
+apt-get update >> /var/log/update_script.log
+apt-get upgrade >> /var/log/update_script.log
