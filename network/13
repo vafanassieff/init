@@ -1,3 +1,5 @@
 # The server type is DHCP
 
 # It is the server who give computer adress ip on the network
+
+nslookup $(ipconfig getifaddr en0) | grep "name =" | cut -c 31-

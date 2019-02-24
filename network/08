@@ -1,1 +1,3 @@
-# For finding who is hosting a domain, the easiest solution is to use the 'whois' command
+#!/bin/bash
+
+# For finding who is hosting a domain, the easiest solution is to use the 'whois' command, here this AWS
