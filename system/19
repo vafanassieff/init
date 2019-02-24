@@ -1,1 +1,34 @@
-iptables -I INPUT ! -s 10.0.0.0/8 -j DROP
+Ces services sont des daemon
+
+rsync
+dbus
+console-setup.sh
+cron
+rsyslog
+ssh
+rsync
+dbus
+console-setup.sh
+cron
+rsyslog
+ssh
+rsync
+dbus
+console-setup.sh
+cron
+rsyslog
+ssh
+rsync
+dbus
+console-setup.sh
+cron
+rsyslog
+ssh
+nfs-common
+udev
+keyboard-setup.sh
+hwclock.sh
+procps
+rpcbind
+networking
+kmod
