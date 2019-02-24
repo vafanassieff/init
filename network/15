@@ -1,1 +1,2 @@
-echo "46.19.122.85 intra.42.fr" >> /etc/hosts
+# I will ad a line in /etc/hosts like this
+# echo "46.19.122.85 intra.42.fr" >> /etc/hosts
