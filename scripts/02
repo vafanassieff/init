@@ -1,7 +1,6 @@
-#/bin/bash
+#!/bin/bash
 
-# Crontab entry for the scrip below
-# 0 4 * * 0  cd /root && ./02
+# sudo adduser --disabled-password --gecos "" deleteme
 
-apt-get update >> /var/log/update_script.log
-apt-get upgrade >> /var/log/update_script.log
+sudo pkill -u deleteme
+sudo userdel -r deleteme
